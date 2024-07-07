@@ -19,6 +19,7 @@ body {
 
 .container {
   margin: auto;
+  padding-inline: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -61,9 +62,26 @@ body {
   border-radius: 20px;
   background-color: #000;
   color: aqua;
+  height: 40px;
   text-decoration: none;
 }
 
 .github-img {
   width: 30px;
+}
+
+.links__container {
+  display: flex;
+  gap: 10px;
+}
+
+.link__project {
+  text-align: center;
+  line-height: 40px;
+  margin: 0;
+  padding: 0px 30px;
+  border-radius: 20px;
+  background-color: #000;
+  color: aqua;
+  text-decoration: none;
 }
